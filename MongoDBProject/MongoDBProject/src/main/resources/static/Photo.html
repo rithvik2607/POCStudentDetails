@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>View Photo</title>
+</head>
+<body>
+  <h1>View Photo</h1>
+  Title: <span th:text="${name}">name</span>
+  <img alt="sample" th:src="*{'data:image/png;base64,'+image}" />
+</body>
+</html>
